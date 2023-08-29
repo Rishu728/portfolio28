@@ -237,7 +237,7 @@ function BottomBanner() {
                         </div>
                         <div className={classes.coltwoContainer}><p className={classes.secondPara}>Thinking about mentorship? Lets talk about it. The first call is on me.</p></div>
                         <div className={classes.colthreeContainer}>
-                            <Link legacyBehaviour href="/introduce_yourself">
+                            <Link legacyBehaviour href="/IntroduceYourself">
                                 <Button className={classes.buttonSty}>
                                     <span className={classes.iconContainer}><IoHandLeftOutline className={classes.iconStyle} /></span>
                                     <span className={classes.textContainer}>

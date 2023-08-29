@@ -44,7 +44,7 @@ function Bottomstyle() {
                 <h2>If youre wanting to level up, mentorship helps.</h2>
                 <p>Schedule a free consultation to ask questions, discuss details, and decide if its a fit.</p>
                 <div className={classes.start_btn}>
-                    <Link legacyBehavior href="introduce_yourself">
+                    <Link legacyBehavior href="IntroduceYourself">
                         <a><IoHandLeftOutline />Introduce yourself</a>
                     </Link>
                 </div>

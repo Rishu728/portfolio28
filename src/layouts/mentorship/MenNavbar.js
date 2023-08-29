@@ -203,14 +203,14 @@ function NavBarContainer() {
                             <div className={classes.Navbar_tags}>
                                 <div>
                                     <div>
-                                        <Link legacyBehavior href="/form_page">
+                                        <Link legacyBehavior href="/FormPage">
                                             <a> Mentorship</a>
                                         </Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div>
-                                        <Link legacyBehavior href="/say_hello">
+                                        <Link legacyBehavior href="/SayHello">
                                             <a> Say Hello</a>
                                         </Link>
                                     </div>

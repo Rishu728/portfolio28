@@ -192,25 +192,21 @@ function NavBarContainer() {
                     <div className={classes.navbar_back}>
                         <div className={classes.navbar}>
                             <div className={classes.img404}>
-                                <Link legacyBehavior href="/">
+                                <Link href="/">
                                     <Image src={hashtag} width={80} height={40} />
                                 </Link>
                             </div>
                             <div />
                             <div className={classes.Navbar_tags}>
                                 <div>
-                                    <div>
-                                        <Link legacyBehavior href="/form_page">
-                                            <a> Mentorship</a>
-                                        </Link>
-                                    </div>
+                                    <Link href="/FormPage">
+                                        <a> Mentorship</a>
+                                    </Link>
                                 </div>
                                 <div>
-                                    <div>
-                                        <Link legacyBehavior href="/say_hello">
-                                            <a> Say Hello</a>
-                                        </Link>
-                                    </div>
+                                    <Link href="/SayHello">
+                                        <a> Say Hello</a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

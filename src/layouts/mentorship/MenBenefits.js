@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 import Tools from '../../../assets/Tools.JPG';
