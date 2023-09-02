@@ -11,7 +11,7 @@ import { makeStyles } from '@mui/styles';
 import { Button, Typography } from '@mui/material';
 
 // images
-import Logo1 from '../../../assets/Logo.jpg';
+import Logo from '../../../assets/Logo.jpg';
 import bulma from '../../../assets/made-with-bulma.png';
 
 const useStyles = makeStyles(() => ({
@@ -281,7 +281,7 @@ function Footer() {
         <footer className={classes.footerContainer}>
             <div className={classes.container}>
                 <div className={classes.img_container}>
-                    <Image src={Logo1} alt="Logo-hashtag" className={classes.logo} />
+                    <Image src={Logo} alt="Logo-hashtag" className={classes.logo} />
                 </div>
                 <div className={classes.headingContainer}>
                     <div className={classes.headingPart}>
