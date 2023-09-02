@@ -192,19 +192,19 @@ function NavBarContainer() {
                     <div className={classes.navbar_back}>
                         <div className={classes.navbar}>
                             <div className={classes.img404}>
-                                <Link href="/">
+                                <Link href="./">
                                     <Image src={hashtag} width={80} height={40} />
                                 </Link>
                             </div>
                             <div />
                             <div className={classes.Navbar_tags}>
                                 <div>
-                                    <Link href="/FormPage">
+                                    <Link href="./FormPage">
                                         <a> Mentorship</a>
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link href="/SayHello">
+                                    <Link href="./SayHello">
                                         <a> Say Hello</a>
                                     </Link>
                                 </div>

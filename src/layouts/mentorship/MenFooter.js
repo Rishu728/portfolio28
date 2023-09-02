@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { TfiTwitterAlt, TfiDribbble, TfiLinkedin } from 'react-icons/tfi';
-
 // icons import from react library
 import { TbBrandProducthunt } from 'react-icons/tb';
 import { SlEnvolope } from 'react-icons/sl';
@@ -11,7 +10,7 @@ import { makeStyles } from '@mui/styles';
 import { Button, Typography } from '@mui/material';
 
 // images
-import Logo1 from '../../../assets/Logo.jpg';
+import Logo from '../../../assets/Logo.jpg';
 import bulma from '../../../assets/made-with-bulma.png';
 
 const useStyles = makeStyles(() => ({
@@ -282,7 +281,7 @@ function Footer() {
             <div className={classes.container}>
                 <div className={classes.img_container}>
                     <a href="https://mattfarley.ca/">
-                        <Image src={Logo1} alt="Logo-hashtag" className={classes.logo} />
+                        <Image src={Logo} alt="Logo-hashtag" className={classes.logo} />
                     </a>
                 </div>
                 <div className={classes.headingContainer}>

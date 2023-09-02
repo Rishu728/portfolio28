@@ -7,7 +7,6 @@ import { makeStyles } from '@mui/styles';
 import mentorship_img from '../../../assets/mentorship_img.jpg';
 
 const useStyles = makeStyles({
-    //   Header
     heading: {
         padding: '70px',
         backgroundColor: 'white',

@@ -6,7 +6,6 @@ import { makeStyles } from '@mui/styles';
 import { IoHandLeftOutline } from 'react-icons/io5';
 
 const useStyles = makeStyles({
-    //  Interested
     interest: {
         border: '1px solid #d9fff0',
         backgroundColor: 'white',
@@ -44,7 +43,7 @@ function Bottomstyle() {
                 <h2>If youre wanting to level up, mentorship helps.</h2>
                 <p>Schedule a free consultation to ask questions, discuss details, and decide if its a fit.</p>
                 <div className={classes.start_btn}>
-                    <Link legacyBehavior href="IntroduceYourself">
+                    <Link href="./IntroduceYourself">
                         <a><IoHandLeftOutline />Introduce yourself</a>
                     </Link>
                 </div>

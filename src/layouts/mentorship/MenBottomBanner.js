@@ -204,7 +204,6 @@ const useStyles = makeStyles(() => ({
         color: 'white',
         fontWeight: '550px',
         fontSize: '18px',
-        // transition: 'color 1s',
         width: '260px',
         height: '30px',
         textDecorationLine: 'none',
@@ -237,7 +236,7 @@ function BottomBanner() {
                         </div>
                         <div className={classes.coltwoContainer}><p className={classes.secondPara}>Thinking about mentorship? Lets talk about it. The first call is on me.</p></div>
                         <div className={classes.colthreeContainer}>
-                            <Link legacyBehaviour href="/IntroduceYourself">
+                            <Link href="./IntroduceYourself">
                                 <Button className={classes.buttonSty}>
                                     <span className={classes.iconContainer}><IoHandLeftOutline className={classes.iconStyle} /></span>
                                     <span className={classes.textContainer}>

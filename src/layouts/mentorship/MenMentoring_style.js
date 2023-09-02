@@ -1,14 +1,9 @@
 /* eslint-disable camelcase */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
-// imagess
-import mentorship_img from '../../../assets/mentorship_img.jpg';
 
 const useStyles = makeStyles({
-    //   Mentoring_style
     heading: {
         padding: '70px',
         backgroundColor: 'white',
