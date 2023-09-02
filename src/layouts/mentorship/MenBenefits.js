@@ -3,11 +3,11 @@
 import React from 'react';
 import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
-import Tools from '../../../assets/Tools.JPG';
-import Resources from '../../../assets/Resources.JPG';
-import Networking from '../../../assets/Networking.JPG';
-import Opportunity from '../../../assets/Opportunity.JPG';
-import Growth from '../../../assets/Growth.JPG';
+import Tools from '../../../assets/Tools.jpg';
+import Resources from '../../../assets/Resources.jpg';
+import Networking from '../../../assets/Networking.jpg';
+import Opportunity from '../../../assets/Opportunity.jpg';
+import Growth from '../../../assets/Growth.jpg';
 
 const useStyles = makeStyles({
     interest_back: {

@@ -19,7 +19,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import { useMediaQuery, useTheme } from '@mui/material';
 
 // imagess
-import hashtag from '../../../assets/hashtag.JPG';
+import hashtag from '../../../assets/hashtag.jpg';
 
 const useStyles = makeStyles({
     navbar_back: {

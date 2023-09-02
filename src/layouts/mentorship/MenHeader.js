@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 // imagess
-import mentorship_img from '../../../assets/mentorship_img.JPG';
+import mentorship_img from '../../../assets/mentorship_img.jpg';
 
 const useStyles = makeStyles({
     //   Header

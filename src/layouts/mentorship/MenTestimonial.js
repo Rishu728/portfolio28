@@ -5,11 +5,11 @@ import { Typography, Input } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
 // images
-import Dalrae_Kim from '../../../assets/Dalrae_Kim.JPG';
-import Jenann_Pham from '../../../assets/Jenann_Pham.JPG';
-import Jonathan_Maimon from '../../../assets/Jonathan_Maimon.JPG';
-import Erika_Harano from '../../../assets/Erika_Harano.JPG';
-import Arnold_Rosario from '../../../assets/Arnold_Rosario.JPG';
+import Dalrae_Kim from '../../../assets/Dalrae_Kim.jpg';
+import Jenann_Pham from '../../../assets/Jenann_Pham.jpg';
+import Jonathan_Maimon from '../../../assets/Jonathan_Maimon.jpg';
+import Erika_Harano from '../../../assets/Erika_Harano.jpg';
+import Arnold_Rosario from '../../../assets/Arnold_Rosario.jpg';
 
 const useStyles = makeStyles(() => ({
     container: {

@@ -4,9 +4,9 @@ import React from 'react';
 import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 // imagess
-import Men_one from '../../../assets/Men_one.JPG';
-import Men_two from '../../../assets/Men_two.JPG';
-import Men_three from '../../../assets/Men_three.JPG';
+import Men_one from '../../../assets/Men_one.jpg';
+import Men_two from '../../../assets/Men_two.jpg';
+import Men_three from '../../../assets/Men_three.jpg';
 
 const useStyles = makeStyles({
     // Container

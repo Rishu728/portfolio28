@@ -4,10 +4,10 @@ import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 
 // imagess
-import Authenticity from '../../../assets/Authenticity.JPG';
-import Humility from '../../../assets/Humility.JPG';
-import Equality from '../../../assets/Equality.JPG';
-import Transparency from '../../../assets/Transparency.JPG';
+import Authenticity from '../../../assets/Authenticity.jpg';
+import Humility from '../../../assets/Humility.jpg';
+import Equality from '../../../assets/Equality.jpg';
+import Transparency from '../../../assets/Transparency.jpg';
 
 const useStyles = makeStyles({
     // Container

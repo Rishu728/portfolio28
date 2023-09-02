@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 
 // imagess
-import one from '../../../assets/one.JPG';
-import two from '../../../assets/two.JPG';
-import three from '../../../assets/three.JPG';
+import one from '../../../assets/one.jpg';
+import two from '../../../assets/two.jpg';
+import three from '../../../assets/three.jpg';
 
 const useStyles = makeStyles({
     containerback: {

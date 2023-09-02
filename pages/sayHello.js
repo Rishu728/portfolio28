@@ -15,7 +15,7 @@ import { Input, Typography } from '@mui/material';
 // images
 import Image from 'next/image';
 import mf_avatar from '../assets/mf_avatar.jpg';
-import hashtag from '../assets/hashtag.JPG';
+import hashtag from '../assets/hashtag.jpg';
 
 const useStyles = makeStyles((theme) => ({
     title: {
@@ -175,7 +175,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function Header() {
+const Header = () => {
     const [ name, setName ] = useState('');
     const [ email, setEmail ] = useState('');
     const [ message, setMessage ] = useState('');
@@ -290,5 +290,5 @@ function Header() {
             </form>
         </div>
     );
-}
+};
 export default Header;

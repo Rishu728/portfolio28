@@ -6,7 +6,7 @@ import { makeStyles } from '@mui/styles';
 
 // imagess
 import avartar from '../../../assets/avartar.png';
-import computer from '../../../assets/computer.JPG';
+import computer from '../../../assets/computer.jpg';
 
 const useStyles = makeStyles({
     //   Header

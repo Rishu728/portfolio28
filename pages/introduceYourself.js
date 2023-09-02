@@ -14,7 +14,7 @@ import { GiAnticlockwiseRotation } from 'react-icons/gi';
 import { RxCross2 } from 'react-icons/rx';
 
 import mf_avatar from '../assets/mf_avatar.jpg';
-import hashtag from '../assets/hashtag.JPG';
+import hashtag from '../assets/hashtag.jpg';
 
 const useStyles = makeStyles(() => ({
     WholeContainer: {
