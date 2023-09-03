@@ -14,8 +14,8 @@ import { Input, Typography } from '@mui/material';
 
 // images
 import Image from 'next/image';
-import mf_avatar from '../assets/mf_avatar.jpg';
-import hashtag from '../assets/hashtag.jpg';
+import Avartar from '../assets/Avartar.jpg';
+import Hashtag from '../assets/Hashtag.jpg';
 
 const useStyles = makeStyles((theme) => ({
     title: {
@@ -209,8 +209,8 @@ const Header = () => {
         <div className={classes.title}>
             <div>
                 <div className={classes.logo}>
-                    <Link legacyBehavior href="/">
-                        <Image src={hashtag} width={80} height={40} />
+                    <Link href="./">
+                        <Image src={Hashtag} width={80} height={40} />
                     </Link>
                 </div>
                 <div className={classes.buttons}>
@@ -218,7 +218,7 @@ const Header = () => {
                         <Button variant="text" onClick={handleClear} startIcon={<GiAnticlockwiseRotation size={20} color="#6E07F3" />} />
                     </div>
                     <div>
-                        <Link legacyBehavior href="/">
+                        <Link href="./">
                             <Button variant="text" startIcon={<RxCross2 size={20} color="#6E07F3" />} />
                         </Link>
                     </div>
@@ -230,7 +230,7 @@ const Header = () => {
             {/* image */}
             <div className={classes.second_Header}>
                 <div className={classes.center_img}>
-                    <Image src={mf_avatar} width={150} height={120} />
+                    <Image src={Avartar} width={150} height={120} />
                 </div>
                 <div className={classes.headspace}>
                     <p>
