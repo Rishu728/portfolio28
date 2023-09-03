@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable camelcase */
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 
 // imagess
-import Avartar from '../../../assets/Avartar.png';
-import Computer from '../../../assets/Computer.jpg';
+// import Avartar from '../../../assets/Avartar.png';
+// import Computer from '../../../assets/Computer.jpg';
 
 const useStyles = makeStyles({
     //   Header
@@ -122,8 +122,12 @@ function Header() {
             {/* Images    */}
             <div className={classes.imgs}>
                 <div className={classes.img}>
-                    <div className={classes.img1}><Image style={{ borderRadius: '100%' }} src={Avartar} /></div>
-                    <div className={classes.img2}><Image src={Computer} /></div>
+                    <div className={classes.img1}>AVar
+                        {/* <Image style={{ borderRadius: '100%' }} src={Avartar} /> */}
+                    </div>
+                    <div className={classes.img2}>Com
+                        {/* <Image src={Computer} /> */}
+                    </div>
                 </div>
             </div>
 

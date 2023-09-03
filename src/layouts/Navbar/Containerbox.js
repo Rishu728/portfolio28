@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 
 // imagess
-import One from '../../../assets/One.jpg';
-import Two from '../../../assets/Two.jpg';
-import Three from '../../../assets/Three.jpg';
+// import One from '../../../assets/One.jpg';
+// import Two from '../../../assets/Two.jpg';
+// import Three from '../../../assets/Three.jpg';
 
 const useStyles = makeStyles({
     containerback: {
@@ -219,7 +219,9 @@ function Containerbox() {
                     <div className={classes.container}>
                         <div>
                             <ul>
-                                <div className={classes.designer_img}><Image src={One} /></div>
+                                <div className={classes.designer_img}>One
+                                    {/* <Image src={One} /> */}
+                                </div>
                                 <li>
                                     <p className={classes.paratext}>Designer</p>
                                     <div className={classes.designer_things}>
@@ -258,8 +260,8 @@ function Containerbox() {
                         </div>
                         <div>
                             <ul>
-                                <div className={classes.frontend_img}>
-                                    <Image src={Two} />
+                                <div className={classes.frontend_img}>Two
+                                    {/* <Image src={Two} /> */}
                                 </div>
                                 <li>
                                     <p>Frontend Developer</p>
@@ -307,7 +309,10 @@ function Containerbox() {
                             </ul>
                         </div>
                         <div className={classes.mentorbox}>
-                            <ul><div className={classes.img_mentor}><Image src={Three} /></div>
+                            <ul>
+                                <div className={classes.img_mentor}>Three
+                                    {/* <Image src={Three} /> */}
+                                </div>
                                 <li>
                                     <p>Learner</p>
                                     <div className={classes.mentor_div2}>
