@@ -13,9 +13,9 @@ import { RxCross2 } from 'react-icons/rx';
 import { Input, Typography } from '@mui/material';
 
 // images
-import Image from 'next/image';
-import Avartar from '../assets/Avartar.jpg';
-import Hashtag from '../assets/Hashtag.jpg';
+// import Image from 'next/image';
+// import Avartar from '../assets/Avartar.jpg';
+// import Hashtag from '../assets/Hashtag.jpg';
 
 const useStyles = makeStyles((theme) => ({
     title: {
@@ -180,7 +180,6 @@ const Header = () => {
     const [ email, setEmail ] = useState('');
     const [ message, setMessage ] = useState('');
     const classes = useStyles();
-    const [ refresh, setRefresh ] = useState('');
     const inputRef = useRef(null);
     const handleClear = () => {
         setName('');
@@ -210,7 +209,7 @@ const Header = () => {
             <div>
                 <div className={classes.logo}>
                     <Link href="./">
-                        <Image src={Hashtag} width={80} height={40} />
+                        {/* <Image src={Hashtag} width={80} height={40} /> */}
                     </Link>
                 </div>
                 <div className={classes.buttons}>
@@ -229,8 +228,8 @@ const Header = () => {
             </div>
             {/* image */}
             <div className={classes.second_Header}>
-                <div className={classes.center_img}>
-                    <Image src={Avartar} width={150} height={120} />
+                <div className={classes.center_img}>Hello
+                    {/* <Image src={Avartar} width={150} height={120} /> */}
                 </div>
                 <div className={classes.headspace}>
                     <p>
@@ -277,10 +276,7 @@ const Header = () => {
                     />
                 </div>
                 <div>
-                    {/* <Link legacyBehavior href="#"> */}
                     <Button className={classes.start_btn} type="submit">Submit</Button>
-                    {/* </Link> */}
-
                 </div>
                 {error && (
                     <Typography variant="body1" color="error">

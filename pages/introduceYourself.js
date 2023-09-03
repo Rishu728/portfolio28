@@ -13,8 +13,8 @@ import {
 import { GiAnticlockwiseRotation } from 'react-icons/gi';
 import { RxCross2 } from 'react-icons/rx';
 
-import Avartar from '../assets/Avartar.jpg';
-import Hashtag from '../assets/Hashtag.jpg';
+// import Avartar from '../assets/Avartar.jpg';
+// import Hashtag from '../assets/Hashtag.jpg';
 
 const useStyles = makeStyles(() => ({
     WholeContainer: {
@@ -367,7 +367,7 @@ function ConversationForm() {
                 <div className={classes.containerTwo}>
                     <div className={classes.logoContainer} />
                     <a href="./" className={classes.logoItem} target="_blank" rel="noreferrer">
-                        <Image src={Hashtag} alt="hashtag_logo" />
+                        {/* <Image src={Hashtag} alt="hashtag_logo" /> */}
                     </a>
                 </div>
                 <div className={classes.navMenu}>
@@ -384,8 +384,8 @@ function ConversationForm() {
                     <div className={classes.secondConatiner}>
                         <div className={classes.centeredContainer}>
                             <div className={classes.paraContainer}>
-                                <div className={classes.imageContainer}>
-                                    <Image src={Avartar} className={classes.image} alt="avtar" />
+                                <div className={classes.imageContainer}>Hello
+                                    {/* <Image src={Avartar} className={classes.image} alt="avtar" /> */}
                                 </div>
                                 <Typography variant="h1" className={classes.heading}>Want to discuss a startup collaboration? Im most definitely game.</Typography>
                             </div>
