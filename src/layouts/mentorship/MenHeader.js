@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 // imagess
-import mentorship_img from '../../../assets/mentorship_img.jpg';
+import MentorshipImg from '../../../assets/MentorshipImg.jpg';
 
 const useStyles = makeStyles({
     heading: {
@@ -107,7 +107,7 @@ function Header() {
             </div>
             <div className={classes.imgs}>
                 <div className={classes.img}>
-                    <div className={classes.img1}><Image src={mentorship_img} /></div>
+                    <div className={classes.img1}><Image src={MentorshipImg} /></div>
                 </div>
             </div>
 

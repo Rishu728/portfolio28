@@ -5,11 +5,11 @@ import { Typography, Input } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
 // images
-import Dalrae_Kim from '../../../assets/Dalrae_Kim.jpg';
-import Jenann_Pham from '../../../assets/Jenann_Pham.jpg';
-import Jonathan_Maimon from '../../../assets/Jonathan_Maimon.jpg';
-import Erika_Harano from '../../../assets/Erika_Harano.jpg';
-import Arnold_Rosario from '../../../assets/Arnold_Rosario.jpg';
+import DalraeKim from '../../../assets/DalraeKim.jpg';
+import JenannPham from '../../../assets/JenannPham.jpg';
+import JonathanMaimon from '../../../assets/JonathanMaimon.jpg';
+import ErikaHarano from '../../../assets/ErikaHarano.jpg';
+import ArnoldRosario from '../../../assets/ArnoldRosario.jpg';
 
 const useStyles = makeStyles(() => ({
     container: {
@@ -182,31 +182,31 @@ const Testimonials = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const testimonials = [
         {
-            image: Dalrae_Kim,
+            image: DalraeKim,
             text: '“Matt always offered insightful suggestions on the work I produced and challenged me with questions I had not considered. He is an incredible mentor, designer, and person.”',
             author1: 'Dalrae Kim',
             author2: 'UX Designer, Indeed',
         },
         {
-            image: Jenann_Pham,
+            image: JenannPham,
             text: '“Matts passion for design and unique perspective constantly pushed my problem-solving abilities. He is a master of his craft, and genuinely cares about the people he mentors.”',
             author1: 'Jenann Pham',
             author2: 'Design Consultant, Freelance',
         },
         {
-            image: Jonathan_Maimon,
+            image: JonathanMaimon,
             text: '“Matt not only opened doors for me in my career, but did so with a smile and an easy-going personality. He has serious grit, and if you spend enough time with him, you will too.”',
             author1: 'Jonathan Maimon',
             author2: 'User Researcher, Coinbase',
         },
         {
-            image: Erika_Harano,
+            image: ErikaHarano,
             text: '“Matt believed in me before I believed in myself as a designer, and I am ever grateful for his unwavering support in my growth and development as a freelancer and design educator.”',
             author1: 'Erika Harano',
             author2: 'UX Designer, Freelance',
         },
         {
-            image: Arnold_Rosario,
+            image: ArnoldRosario,
             text: '“Matt greatly impacted my growth as a designer. He took the time to really understand where I was at in my career and provided guidance to help fill gaps in my knowledge.”',
             author1: 'Arnold Rosario',
             author2: 'UX Designer, Smartsheet',

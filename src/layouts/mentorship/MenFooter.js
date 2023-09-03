@@ -11,7 +11,7 @@ import { Button, Typography } from '@mui/material';
 
 // images
 import Logo from '../../../assets/Logo.jpg';
-import bulma from '../../../assets/made-with-bulma.png';
+import bulma from '../../../assets/MadeBulma.png';
 
 const useStyles = makeStyles(() => ({
     footerContainer: {

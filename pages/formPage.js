@@ -27,13 +27,3 @@ const FormPage = () => (
     </div>
 );
 export default FormPage;
-
-if (process.env.NODE_ENV !== 'production') {
-    if (typeof window !== 'undefined') {
-        // This code will only run on the client-side in development mode
-        // It logs any errors to the console
-        window.addEventListener('error', (error) => {
-            console.error('An error occurred:', error);
-        });
-    }
-}

@@ -154,7 +154,6 @@ const useStyles = makeStyles(() => ({
         },
     },
     // section Container two
-
     sectionContainerTwo: {
         display: 'block',
         height: '800px',
@@ -351,8 +350,6 @@ function ConversationForm() {
         }
         alert('Form submitted!');
     };
-
-    const [ refresh, setRefresh ] = useState('');
     const inputRef = useRef(null);
 
     const handleClear = () => {
@@ -376,7 +373,7 @@ function ConversationForm() {
                 <div className={classes.navMenu}>
                     <div className={classes.navEnd}>
                         <Button className={classes.navItem} onClick={handleClear} startIcon={<GiAnticlockwiseRotation className={classes.navIcon} />} />
-                        <Link legacyBehaviour href="/">
+                        <Link href="./">
                             <Button className={classes.navItem} startIcon={<RxCross2 className={classes.navIcon} />} />
                         </Link>
                     </div>
@@ -416,9 +413,9 @@ function ConversationForm() {
                                 </div>
                             </div>
                             <div className={classes.halfColumn}>
-                                // eslint-disable-next-line react/jsx-no-comment-textnodes
+                                {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
                                 <div className={classes.field}>
-                                    // eslint-disable-next-line jsx-a11y/label-has-associated-control
+                                    {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
                                     <label className={classes.labelStyle}>Email</label>
                                     <div className={classes.InputControl}>
                                         <Input

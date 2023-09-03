@@ -12,7 +12,7 @@ import { Button, Typography } from '@mui/material';
 
 // images
 import Logo from '../../../assets/Logo.jpg';
-import bulma from '../../../assets/made-with-bulma.png';
+import MadeBulma from '../../../assets/MadeBulma.png';
 
 const useStyles = makeStyles(() => ({
     footerContainer: {
@@ -311,7 +311,7 @@ function Footer() {
                 <div className={classes.copyrightContainer}>Handcrafted by me <AiOutlineCopyrightCircle style={{ verticalAlign: '-0.125em', width: '30px' }} /> twentytwentythree </div><br />
                 <div className={classes.bulmaContainer}>
                     <a href="https://bulma.io/">
-                        <Image src={bulma} className={classes.bulmaImage} alt="made with bulma" />
+                        <Image src={MadeBulma} className={classes.bulmaImage} alt="made with bulma" />
                     </a>
                 </div>
             </div>

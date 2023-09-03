@@ -4,9 +4,9 @@ import React from 'react';
 import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 // imagess
-import Men_one from '../../../assets/Men_one.jpg';
-import Men_two from '../../../assets/Men_two.jpg';
-import Men_three from '../../../assets/Men_three.jpg';
+import MenOne from '../../../assets/MenOne.jpg';
+import MenTwo from '../../../assets/MenTwo.jpg';
+import MenThree from '../../../assets/MenThree.jpg';
 
 const useStyles = makeStyles({
     // Container
@@ -241,7 +241,7 @@ function Containerbox() {
                     <div className={classes.container}>
                         <div>
                             <ul>
-                                <div className={classes.designer_img}><Image src={Men_one} /></div>
+                                <div className={classes.designer_img}><Image src={MenOne} /></div>
                                 <li>
                                     <p>Spot Mentoring</p>
                                     <p>$150</p>
@@ -262,7 +262,7 @@ function Containerbox() {
                         </div>
                         <div>
                             <ul>
-                                <div className={classes.frontend_img}><Image src={Men_two} /></div>
+                                <div className={classes.frontend_img}><Image src={MenTwo} /></div>
                                 <li>
                                     <p>Production Support</p>
                                     <p>$500</p>
@@ -281,7 +281,7 @@ function Containerbox() {
                             </ul>
                         </div>
                         <div className={classes.mentorbox}>
-                            <ul><div className={classes.img_mentor}><Image src={Men_three} /></div>
+                            <ul><div className={classes.img_mentor}><Image src={MenThree} /></div>
                                 <li>
                                     <p>Tailored Learning</p>
                                     <p>$1200</p>
