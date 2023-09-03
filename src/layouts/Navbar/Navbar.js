@@ -19,7 +19,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import { useMediaQuery, useTheme } from '@mui/material';
 
 // imagess
-import hashtag from '../../../assets/hashtag.jpg';
+import Hashtag from '../../../assets/Hashtag.jpg';
 
 const useStyles = makeStyles({
     navbar_back: {
@@ -193,7 +193,7 @@ function NavBarContainer() {
                         <div className={classes.navbar}>
                             <div className={classes.img404}>
                                 <Link href="./">
-                                    <Image src={hashtag} width={80} height={40} />
+                                    <Image src={Hashtag} width={80} height={40} />
                                 </Link>
                             </div>
                             <div />

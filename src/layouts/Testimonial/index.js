@@ -5,8 +5,8 @@ import { Input, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
 // images
-import pascal1 from '../../../assets/pascal1.png';
-import pascal2 from '../../../assets/pascal2.png';
+import Pascal1 from '../../../assets/Pascal1.png';
+import Pascal2 from '../../../assets/Pascal2.png';
 
 const useStyles = makeStyles(() => ({
     container: {
@@ -169,13 +169,13 @@ const Testimonials = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const testimonials = [
         {
-            image: pascal1,
+            image: Pascal1,
             text: '"Rishu is a real pleasure to work with and we look forward to \n working with her again. She is definitely the kind of designer you can \n trust with a project from start to finish."',
             author1: 'Pascal Tremblay',
             author2: 'Creative Lead, Flowers inc',
         },
         {
-            image: pascal2,
+            image: Pascal2,
             text: '"Rishu is a clear communicator with the tenacity and  confidence to \n really dig in to tricky design scenarios  and the collaborative friction \n thats needed to produce excellent work."',
             author1: 'Alvin Engler',
             author2: 'Head Manager, Flowers inc',

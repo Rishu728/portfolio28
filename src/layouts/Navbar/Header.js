@@ -5,8 +5,8 @@ import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 
 // imagess
-import avartar from '../../../assets/avartar.png';
-import computer from '../../../assets/computer.jpg';
+import Avartar from '../../../assets/Avartar.png';
+import Computer from '../../../assets/Computer.jpg';
 
 const useStyles = makeStyles({
     //   Header
@@ -122,8 +122,8 @@ function Header() {
             {/* Images    */}
             <div className={classes.imgs}>
                 <div className={classes.img}>
-                    <div className={classes.img1}><Image style={{ borderRadius: '100%' }} src={avartar} /></div>
-                    <div className={classes.img2}><Image src={computer} /></div>
+                    <div className={classes.img1}><Image style={{ borderRadius: '100%' }} src={Avartar} /></div>
+                    <div className={classes.img2}><Image src={Computer} /></div>
                 </div>
             </div>
 

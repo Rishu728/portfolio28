@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { makeStyles } from '@mui/styles';
 
 // imagess
-import one from '../../../assets/one.jpg';
-import two from '../../../assets/two.jpg';
-import three from '../../../assets/three.jpg';
+import One from '../../../assets/One.jpg';
+import Two from '../../../assets/Two.jpg';
+import Three from '../../../assets/Three.jpg';
 
 const useStyles = makeStyles({
     containerback: {
@@ -219,7 +219,7 @@ function Containerbox() {
                     <div className={classes.container}>
                         <div>
                             <ul>
-                                <div className={classes.designer_img}><Image src={one} /></div>
+                                <div className={classes.designer_img}><Image src={One} /></div>
                                 <li>
                                     <p className={classes.paratext}>Designer</p>
                                     <div className={classes.designer_things}>
@@ -259,7 +259,7 @@ function Containerbox() {
                         <div>
                             <ul>
                                 <div className={classes.frontend_img}>
-                                    <Image src={two} />
+                                    <Image src={Two} />
                                 </div>
                                 <li>
                                     <p>Frontend Developer</p>
@@ -307,7 +307,7 @@ function Containerbox() {
                             </ul>
                         </div>
                         <div className={classes.mentorbox}>
-                            <ul><div className={classes.img_mentor}><Image src={three} /></div>
+                            <ul><div className={classes.img_mentor}><Image src={Three} /></div>
                                 <li>
                                     <p>Learner</p>
                                     <div className={classes.mentor_div2}>
